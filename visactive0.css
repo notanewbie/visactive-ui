@@ -1,0 +1,20 @@
+bubble {
+font-family: sans-serif;
+font-size: 1.5vh;
+color: black;
+border-radius: 50vw;
+outline: solid green 0.125vh;
+padding: 0.75vh;
+padding-top: 0.25vh;
+padding-bottom: 0.25vh;
+margin-top: 50px;
+display: inline;
+background-color: white;
+transition: 0.3s;
+}
+bubble:hover {
+background-color: green;
+outline: solid green 0vh;
+color: white;
+transition: 0.3s;
+}

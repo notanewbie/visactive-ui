@@ -10,6 +10,8 @@ padding-bottom: 0.25vh;
 margin-top: 50px;
 display: inline;
 background-color: white;
+margin-right: 0.5vh;
+margin-left: 0.5vh;
 transition: 0.3s;
 }
 bubble:hover {

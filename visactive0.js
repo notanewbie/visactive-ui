@@ -23,8 +23,8 @@ i = i + 1;
 
 function makeColor(text) {
 
-H = (text.charCodeAt(0) + text.charCodeAt(text.length - 1) / 2)
+H = (text.charCodeAt(0) + text.charCodeAt(text.length - 1) / 0.5)
 
-return "hsl(" + H + " 100 50)";
+return "hsl(" + H + ", 100%, 50%)";
 }
 reColor("bubble");
